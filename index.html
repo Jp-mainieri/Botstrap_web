@@ -64,7 +64,7 @@
             <input
               class="form-control me-2"
               type="search"
-              placeholder="RA ou nome do estudante"
+              placeholder="RA ou Nome"
               aria-label="Search"
             />
             <button class="btn btn-outline-info" type="submit">Buscar</button>
@@ -73,9 +73,15 @@
       </div>
     </nav>
     <div class="container-md">
-      <div class="alert alert-warning" role="alert">
-        Querido docente, responda o requerimento do
-        <strong>Leonardo Dionel</strong> hoje. O prazo limite é amanhã.
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Professor, responda o requerimento do aluno
+        <strong>Leonardo Dionel</strong>. O prazo vence amanhã.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
       </div>
       <h1>Requerimentos Urgentes</h1>
       <table class="table table-hover">
